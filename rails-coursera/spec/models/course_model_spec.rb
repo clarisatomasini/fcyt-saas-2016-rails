@@ -7,7 +7,7 @@ RSpec.describe Course, :type => :model do
         expect(ia).not_to be nil
         expect(ia.title).to eql "Artificial Intelligence"
     end
-    xit "Gets sopecific course by id" do
+    xit "Gets specific course by id" do
         #YOUR CODE HERE
     end
     xit "Lists all course sorted by title asc" do
